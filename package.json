@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --verbose"
   },
   "repository": "git+https://github.com/Vimalraj571/TDD-Addition.git",
   "keywords": [],
-  "author": "Vimal-Yappes <vimal.raj@yappes.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Vimalraj571/TDD-Addition/issues"
   },
-  "homepage": "https://github.com/Vimalraj571/TDD-Addition#readme"
+  "homepage": "https://github.com/Vimalraj571/TDD-Addition#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1"
+  }
 }
